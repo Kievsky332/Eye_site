@@ -1,0 +1,22 @@
+
+html,body,input[type=number]{
+    font-size: 28px;
+    color: white;
+    background-color: #101922;
+}
+input[type=number]{
+    max-width: 60px;
+    text-align: center;
+}
+button  {
+   background-color: #51BCBC;
+   border-radius: 22px;
+   padding: 10px;
+   font-size: 20px;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
