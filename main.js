@@ -15,15 +15,10 @@ function func(){
         clearInterval(zz);
         var audio = new Audio('razz.mp3');
         audio.play(); 
-        setTimeout(upyat ,66*1000)
-        function upyat(){
-             const pip1 = setInterval(pip, pips*1000);
-            const zz = setInterval(razminka, razm*1000);
-        }
     }
 
-    const pip1 = setInterval(pip, pips*1000);
-    const zz = setInterval(razminka, razm*1000);
+    let pip1 = setInterval(pip, pips*1000);
+    let zz = setInterval(razminka, razm*1000);
     
 }
 function stop(){
