@@ -1,4 +1,7 @@
-
+#black{
+    text-decoration: none;
+    color: black;
+}
 html,body,input[type=number]{
     font-size: 28px;
     color: white;
