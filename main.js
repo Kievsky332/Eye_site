@@ -1,8 +1,10 @@
 function func(){
     const pips = document.querySelector("#CLOSE-OPEN").value;
     const razm  = document.querySelector("#razminka").value;
-    const hide  = document.querySelector("#sorav").innerHTML;
+    const razm1 = Number(razm)
     alert("Начинаем - нажми ОК !");
+    const pip1 = setInterval(pip, pips*1000);
+    const zz = setTimeout(razminka, razm1*1000);
     //Таймер морганий
     function pip(){
         var audio = new Audio('pip.mp3');
@@ -11,16 +13,14 @@ function func(){
 
     //таймер разминок
     function razminka(){
-        clearInterval(pip1);
-        clearInterval(zz);
         var audio = new Audio('razz.mp3');
-        audio.play(); 
+        audio.play();  
+        setInterval(upyat ,(66+razm1)*1000);
+        function upyat(){
+                var audio = new Audio('razz.mp3');
+                audio.play(); 
+        }
     }
 
-    let pip1 = setInterval(pip, pips*1000);
-    let zz = setInterval(razminka, razm*1000);
     
-}
-function stop(){
-    console.log(123);
 }
