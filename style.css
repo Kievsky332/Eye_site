@@ -6,12 +6,13 @@ html,body,input[type=number]{
     font-size: 28px;
     color: white;
     background-color: #101922;
+    text-align: center;
 }
 input[type=number]{
     max-width: 60px;
     text-align: center;
 }
-button  {
+button, .button  {
    background-color: #51BCBC;
    border-radius: 22px;
    padding: 10px;
